@@ -402,16 +402,17 @@
             <section class="slider w3layouts agileits">
                 <div class="flexslider w3layouts agileits">
                     <div class="client-info w3layouts agileits">
-                        <p>Para obtener nuestro servicios solo debes registrar.<br />
-                           1. Llena un formulario.<br />
+                        <p>
+                            Para obtener nuestro servicios solo debes registrar.<br />
+                            1. Llena un formulario.<br />
                             2. Solicita el servicio.<br />
                             3. Especifica tu servicio.<br />
                             Listo!<br />
                             Ahora solo debes esperar la confirmacion.<br />
-                            <input type="submit" id="btnregis" value="Registrarse">
+                            <a href="login/Default.aspx">Registrarse</a>
                         </p>
                     </div>
-                    
+
                 </div>
             </section>
         </div>
