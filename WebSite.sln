@@ -7,20 +7,21 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Logistica", ".", "{DA78177E
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_8008"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\WebSite\"
+		Debug.AspNetCompiler.PhysicalPath = "..\Logistica\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8008\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_8008"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\GitHub\WebSite\"
+		Release.AspNetCompiler.PhysicalPath = "..\Logistica\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_8008\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "8008"
+		SlnRelativePath = "..\Logistica\"
 	EndProjectSection
 EndProject
 Global

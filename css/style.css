@@ -761,6 +761,17 @@ textarea {
 	height: 100px;
 }
 
+btnregis {
+    margin-top: 6px;
+	padding: 8px 30px;
+	border: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	background-color: #000;
+	color: #FFF;
+}
+
 input.more_btn {
 	float: right;
 	margin-top: 6px;
