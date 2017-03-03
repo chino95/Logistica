@@ -11,4 +11,14 @@ public partial class login_Default : System.Web.UI.Page
     {
 
     }
+    protected void Registrar()
+    {
+      
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        int a = 0;
+        a = a + a - 1;
+    }
 }

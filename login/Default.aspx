@@ -30,7 +30,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="header-bottom">
 				<div class="header-right w3agile">
 					<div class="header-left-bottom agileinfo">
-						<form action="#" method="post">
+						<form action="Default.aspx" method="post" >
 							<div class="icon1">
 								<i class="fa fa-user" aria-hidden="true"></i>
 								<input  type="text" placeholder="Su nombre" required=""/>
@@ -52,7 +52,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 								<input type="password" placeholder="Repita contraseña" required=""/>
 							</div>
 							<div class="bottom">
-								<input type="submit" value="Register" />
+								<input type="submit" id="Registrar" value="Register" runat="server" Onclick="Button1_Click" />
+                                
 							</div>
 					</form>	
 					</div>

@@ -17,11 +17,11 @@
 
     <!-- Custom-Stylesheet-Links -->
     <!-- Bootstrap-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_themes/css/bootstrap.min.css" type="text/css" media="all">
     <!-- Index-Page-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/css/style.css" type="text/css" media="all">
     <!-- PopUp-Box-CSS -->
-    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+    <link rel="stylesheet" href="App_Themes/css/chocolat.css" type="text/css" media="all">
     <!-- //Custom-Stylesheet-Links -->
 
     <!-- Fonts -->

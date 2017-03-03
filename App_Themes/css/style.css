@@ -693,14 +693,14 @@ ul.simplefilter {
 }
 
 .client-info p {
-	font-family: 'Raleway', sans-serif;
-	font-size: 17px;
-	font-weight: 100;
-	line-height: 30px;
-	text-align: center;
-	/*--w3layouts--*/
-	/*--agileits--*/
-	color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: center;
+    /*--w3layouts--*/
+    /*--agileits--*/
+    
 }
 
 .client-image {
