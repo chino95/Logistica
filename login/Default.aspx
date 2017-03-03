@@ -30,30 +30,29 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="header-bottom">
 				<div class="header-right w3agile">
 					<div class="header-left-bottom agileinfo">
-						<form action="Default.aspx" method="post" >
+						<form class="login-form" action="Default.aspx" method="post" >
 							<div class="icon1">
 								<i class="fa fa-user" aria-hidden="true"></i>
-								<input  type="text" placeholder="Su nombre" required=""/>
+								<input  type="text" id="txtnom" name="nombre" placeholder="Su nombre" required=""/>
 							</div>
 							<div class="icon1">
 								<i class="fa fa-envelope" aria-hidden="true"></i>
-								<input type="email" placeholder="Su correo" required=""/>
+								<input type="email" id="txtcorreo" name="correo" placeholder="Su correo" required=""/>
 							</div>
 							<div class="icon1">
 								<i class="fa fa-phone" aria-hidden="true"></i>	
-								<input type="tel" placeholder="Su celular" required=""/>
+								<input type="tel" id="txtcel" name="celular" placeholder="Su celular" required=""/>
 							</div>
 							<div class="icon1">
 								<i class="fa fa-lock" aria-hidden="true"></i>
-								<input type="password" placeholder="Su contraseña" required=""/>
+								<input type="password"id="txtpsw" name="psw" placeholder="Su contraseña" required=""/>
 							</div>
 							<div class="icon1">
 								<i class="fa fa-lock" aria-hidden="true"></i>
-								<input type="password" placeholder="Repita contraseña" required=""/>
+								<input type="password" id="txtrepsw" name="repsw" placeholder="Repita contraseña" required=""/>
 							</div>
 							<div class="bottom">
-								<input type="submit" id="Registrar" value="Register" runat="server" Onclick="Button1_Click" />
-                                
+								<input type="submit" id="Registrar" value="Register" runat="server" Onclick="Button1_Click" />                               
 							</div>
 					</form>	
 					</div>
