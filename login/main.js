@@ -10,7 +10,7 @@ function login() {
     };
 
     $.ajax({
-        url: 'Default.aspx/UserLogin',
+        url: 'App_Code/Cls_Conexion.cs',
         type: 'POST',
         contentType: "application/json",
         data: JSON.stringify(datos),

@@ -30,7 +30,9 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 			<div class="header-bottom">
 				<div class="header-right w3agile">
 					<div class="header-left-bottom agileinfo">
-						<form class="login-form" action="Default.aspx" method="post" >
+                        
+
+						<form class="login-form" action="Default.aspx" method="POST"  runat="server" >
 							<div class="icon1">
 								<i class="fa fa-user" aria-hidden="true"></i>
 								<input  type="text" id="txtnom" name="nombre" placeholder="Su nombre" required=""/>
@@ -49,12 +51,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 							</div>
 							<div class="icon1">
 								<i class="fa fa-lock" aria-hidden="true"></i>
-								<input type="password" id="txtrepsw" name="repsw" placeholder="Repita contraseña" required=""/>
+								<input type="password" id="txtrepsw" name="repsw" placeholder="Repita contraseña" required="" />
 							</div>
 							<div class="bottom">
-								<input type="submit" id="Registrar" value="Register" runat="server" Onclick="Button1_Click" />                               
+								<input type="submit" id="Registar" value="Register"  runat="server" onserverclick="boton" />
+
+                                <%--<asp:Button ID="Button1" runat="server" Text="Button"  OnClick="Button1_Click"/>--%>
 							</div>
 					</form>	
+                            
 					</div>
 				</div>
 			</div>
@@ -68,5 +73,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!--copyright end here-->
 </div>
 </div>
+    
 </body>
 </html>

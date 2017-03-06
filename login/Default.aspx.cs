@@ -8,17 +8,19 @@ using System.Web.UI.WebControls;
 public partial class login_Default : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
-    {
-
+    {        
     }
     protected void Registrar()
     {
       
     }
+    Cls_Conexion con = new Cls_Conexion();
 
-    protected void Button1_Click(object sender, EventArgs e)
+    protected void boton(object sender,EventArgs e)
     {
-        int a = 0;
-        a = a + a - 1;
+        string usu = String.Format("{0}", Request.Form["correo"]);
+        string pass = String.Format("{0}", Request.Form["psw"]);
+        con.sesion(usu,pass);
+
     }
 }

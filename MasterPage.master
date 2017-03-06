@@ -426,22 +426,10 @@
         <div class="container">
 
             <h3>CONTACTANOS</h3>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
 
-            <form action="#" method="post" class="contact_form">
-                <div class="message">
-                    <div class="col-md-6 grid_6 c1">
-                        <input type="text" class="text" name="Name" placeholder="Su nombre" required="">
-                        <input type="email" class="text email" name="Email" placeholder="Su correo" required="">
-                        <input type="text" class="text" name="Phone" placeholder="Su telefono" required="">
-                    </div>
 
-                    <div class="col-md-6 grid_6 c2">
-                        <textarea name="Message" placeholder="Mensaje" required=""></textarea>
-                        <input type="submit" class="more_btn" value="Enviar Mensaje">
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </form>
+            </asp:ContentPlaceHolder>
 
         </div>
     </div>
